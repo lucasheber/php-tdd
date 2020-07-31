@@ -1,0 +1,27 @@
+{
+  "name": "php-tdd",
+  "description": "Aprendendo TDD com PHP",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "lucas",
+      "email": "lucas.heber07@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "9.1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "CDC\\Loja\\": [
+        "src/CDC/Loja",
+        "tests/CDC/Loja"
+      ],
+      "CDC\\Exemplos\\": [
+        "src/CDC/Exemplos",
+        "tests/CDC/Exemplos"
+      ]
+    }
+  }
+}
