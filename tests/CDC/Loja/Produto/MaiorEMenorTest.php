@@ -1,13 +1,11 @@
 <?php
 
-
 namespace CDC\Loja\Produto;
 
 use CDC\Loja\Carrinho\CarrinhoDeCompras;
 use PHPUnit\Framework\TestCase as PHPUnit;
 
-class MaiorEMenorTest extends PHPUnit
-{
+class MaiorEMenorTest extends PHPUnit {
 
     public function testOrdemDecrescente()
     {
@@ -48,4 +46,5 @@ class MaiorEMenorTest extends PHPUnit
         $this->assertEquals("Jogo de Pratos", $maiorMenor->getMenor()->getNome());
         $this->assertEquals("Jogo de Pratos", $maiorMenor->getMaior()->getNome());
     }
+
 }

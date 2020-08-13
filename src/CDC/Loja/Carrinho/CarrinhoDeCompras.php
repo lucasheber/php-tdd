@@ -1,13 +1,11 @@
 <?php
 
-
 namespace CDC\Loja\Carrinho;
-
 
 use CDC\Loja\Produto\Produto;
 
-class CarrinhoDeCompras
-{
+class CarrinhoDeCompras {
+
     /** @var \ArrayObject Produto */
     private $products;
 
@@ -15,7 +13,6 @@ class CarrinhoDeCompras
     {
         /** @var \ArrayObject Produto */
         $this->products = new \ArrayObject();
-
     }
 
     public function adiciona(Produto $produto)
